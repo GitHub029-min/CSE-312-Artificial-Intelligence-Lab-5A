@@ -2,7 +2,7 @@
 # Lab Assignment 1 – Python Name Analyzer
 
 # Problem Statement
-This Python program analyzes my full name and performs several tasks:
+This Python program analyzes full name and performs several tasks:
 - Counts and display the number of vowels and consonants.
 - Displays the ASCII value of each character.
 - Reverses the name.
