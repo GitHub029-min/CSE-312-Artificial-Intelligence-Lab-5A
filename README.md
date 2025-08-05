@@ -15,7 +15,7 @@ This Python program analyzes full name and performs several tasks:
 
 ## How to Run the Code
 1. Open the `.py` file in Spyder IDE.
-2. Replace `"Your Full Name Here"` in the function call with your actual full name.
+2. Enter Your Full Name.
 3. Run the script.
 4. View the output in the console.
 
