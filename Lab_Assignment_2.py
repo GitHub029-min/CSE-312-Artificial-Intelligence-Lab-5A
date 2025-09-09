@@ -1,21 +1,25 @@
-# Represent friendships as a graph
-graph = {"A": ["B", "C"], "B": ["D"], "C": ["E"], "D": [], "E": []}
+#Represent friendships as a graph
+graph = {"A": ["B", "C"], 
+        "B": ["D"],
+        "C": ["E"],
+        "D": [],
+        "E": []}
 
-# Implement DFS (using recursion)
+#Implement DFS (using recursion)
 def dfs(graph, start, visited=None):
     if visited is None:
         visited = []
 
-    # Visited student
+#Visited student
     visited.append(start)
     print(start, end=" ")
 
-    # Recursively visit each unvisited friend
+#Recursively visit each unvisited friend
     for friend in graph[start]:
         if friend not in visited:
             dfs(graph, friend, visited)
 
-# Starting from student A
+#Starting from student A
 print("DFS starting from student A:")
 dfs(graph, "A")
 print("\n")
